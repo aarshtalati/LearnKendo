@@ -20,4 +20,6 @@ Apache License Version 2.0, January 2004
 ( http://www.apache.org/licenses/ )
 
 
-Thanks to : http://choosealicense.com !
+Thanks to : 
+http://choosealicense.com &
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line
