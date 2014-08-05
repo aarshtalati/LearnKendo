@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/app/directives/dateField.js"></script>
+<h2>Index</h2>
+<script>
+    $(function () {
+        //$('#datePicker').kendoDatePicker({
+        //    format:"M/d/yy",
+        //    min:new Date(1900,0,1,0,0,0,0),
+        //    max:new Date(2099,11,31,0,0,0,0)
+        //});
+    //kendo.init($("#container"));
+
+    var items = [
+        { key: '1', value: 'Value 1' },
+        { key: '2', value: 'Value 2' },
+        { key: '3', value: 'Value 3' }
+    ];
+    var localDataSource = new kendo.data.DataSource({ data: items });
+
+    //$('#nameAutoComplete2').autocomplete({
+    //    dataSource: localDataSource
+    //    //source: function (request, response) {
+    //    //    response($.map(items, function (value, key) {
+    //    //        console.log(value, key);
+    //    //        return {
+    //    //            label: value,
+    //    //            value: key
+    //    //        };
+    //    //    }));
+    //    //}
+    //});
+    });
+</script>
+
+<div data-ng-controller="home">
+    
+    @*{{selectedDate | asDate | date:'shortDate'}}*@
+    
+    <div id="container">
+        date picker<div data-date-field data-date-val="selectedDate"></div>
+        @*<input data-role="numerictextbox" />*@
+        @*<input id="nameAutoComplete1"
+               type="text"
+               data-role="autocomplete"
+               data-ng-model="personId"
+               data-ignore-case="true"
+               data-text-field="name"
+               data-value-field="value"
+               data-source="{data: [{name: 'John Doe', value: '1'},{name: 'Jane Doe', value : '2'}]}"
+               data-source="{data: [{name: 'John Doe', value: '1'},{name: 'Jane Doe', value : '2'}]}" />*@
+    </div>
+    <input id="nameAutoComplete2" type="text" />
+    {{personId}}
+
+</div>
+

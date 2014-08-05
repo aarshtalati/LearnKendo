@@ -1,0 +1,10 @@
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\bin\Debug\NorthwindEntities.dll.config
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\bin\Debug\NorthwindEntities.dll
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\bin\Debug\NorthwindEntities.pdb
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\bin\Debug\EntityFramework.dll
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\bin\Debug\EntityFramework.xml
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\obj\Debug\NorthwindEntities.dll
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\obj\Debug\NorthwindEntities.pdb
+C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\obj\Debug\NorthwindEntities.csprojResolveAssemblyReference.cache

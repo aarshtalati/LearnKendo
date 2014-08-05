@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3CF27F12-ABD4-4DB6-96E5-D43D7843126D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NorthwindEntities</RootNamespace>
+    <AssemblyName>NorthwindEntities</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB\Alphabetical_list_of_product.cs" />
+    <Compile Include="DB\Category.cs" />
+    <Compile Include="DB\Category_Sales_for_1997.cs" />
+    <Compile Include="DB\Current_Product_List.cs" />
+    <Compile Include="DB\Customer.cs" />
+    <Compile Include="DB\CustomerDemographic.cs" />
+    <Compile Include="DB\Customer_and_Suppliers_by_City.cs" />
+    <Compile Include="DB\Employee.cs" />
+    <Compile Include="DB\EntityBase.cs" />
+    <Compile Include="DB\IDbContext.cs" />
+    <Compile Include="DB\Invoice.cs" />
+    <Compile Include="DB\NorthwindContext.cs" />
+    <Compile Include="DB\Order.cs" />
+    <Compile Include="DB\Orders_Qry.cs" />
+    <Compile Include="DB\Order_Detail.cs" />
+    <Compile Include="DB\Order_Details_Extended.cs" />
+    <Compile Include="DB\Order_Subtotal.cs" />
+    <Compile Include="DB\Product.cs" />
+    <Compile Include="DB\Products_Above_Average_Price.cs" />
+    <Compile Include="DB\Products_by_Category.cs" />
+    <Compile Include="DB\Product_Sales_for_1997.cs" />
+    <Compile Include="DB\Region.cs" />
+    <Compile Include="DB\Sales_by_Category.cs" />
+    <Compile Include="DB\Sales_Totals_by_Amount.cs" />
+    <Compile Include="DB\Shipper.cs" />
+    <Compile Include="DB\Summary_of_Sales_by_Quarter.cs" />
+    <Compile Include="DB\Summary_of_Sales_by_Year.cs" />
+    <Compile Include="DB\Supplier.cs" />
+    <Compile Include="DB\Territory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

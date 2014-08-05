@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnKendo", "LearnKendo\LearnKendo.csproj", "{BEE4F38F-C9BA-4DC2-9E25-387634A93768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindEntities", "NorthwindEntities\NorthwindEntities.csproj", "{3CF27F12-ABD4-4DB6-96E5-D43D7843126D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{ACE2B58B-9309-4E09-B811-FA6C2B20B046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE4F38F-C9BA-4DC2-9E25-387634A93768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE4F38F-C9BA-4DC2-9E25-387634A93768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE4F38F-C9BA-4DC2-9E25-387634A93768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE4F38F-C9BA-4DC2-9E25-387634A93768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF27F12-ABD4-4DB6-96E5-D43D7843126D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF27F12-ABD4-4DB6-96E5-D43D7843126D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF27F12-ABD4-4DB6-96E5-D43D7843126D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF27F12-ABD4-4DB6-96E5-D43D7843126D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE2B58B-9309-4E09-B811-FA6C2B20B046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE2B58B-9309-4E09-B811-FA6C2B20B046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE2B58B-9309-4E09-B811-FA6C2B20B046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE2B58B-9309-4E09-B811-FA6C2B20B046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
