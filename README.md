@@ -12,3 +12,12 @@ jQuery
 ASP.NET MVC
 ASP.NET Web API
 Entity Framework 6
+
+
+License : 
+
+Apache License Version 2.0, January 2004 
+( http://www.apache.org/licenses/ )
+
+
+Thanks to : http://choosealicense.com !
