@@ -8,3 +8,13 @@ C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities
 C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\obj\Debug\NorthwindEntities.dll
 C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\obj\Debug\NorthwindEntities.pdb
 C:\Users\Aash\Documents\Visual Studio 2013\Projects\LearnKendo\NorthwindEntities\obj\Debug\NorthwindEntities.csprojResolveAssemblyReference.cache
+C:\Code\LearnKendo\NorthwindEntities\bin\Debug\NorthwindEntities.dll.config
+C:\Code\LearnKendo\NorthwindEntities\bin\Debug\NorthwindEntities.dll
+C:\Code\LearnKendo\NorthwindEntities\bin\Debug\NorthwindEntities.pdb
+C:\Code\LearnKendo\NorthwindEntities\bin\Debug\EntityFramework.dll
+C:\Code\LearnKendo\NorthwindEntities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Code\LearnKendo\NorthwindEntities\bin\Debug\EntityFramework.xml
+C:\Code\LearnKendo\NorthwindEntities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Code\LearnKendo\NorthwindEntities\obj\Debug\NorthwindEntities.csprojResolveAssemblyReference.cache
+C:\Code\LearnKendo\NorthwindEntities\obj\Debug\NorthwindEntities.dll
+C:\Code\LearnKendo\NorthwindEntities\obj\Debug\NorthwindEntities.pdb

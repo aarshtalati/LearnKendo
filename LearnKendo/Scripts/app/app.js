@@ -1,5 +1,5 @@
 ﻿/// <reference path="../KendoUI/angular.min.js" />
-var app = angular.module('app', []);
+var app = angular.module('app', ['kendo.directives']);
 
 app.filter("asDate", function () {
     return function (input) {

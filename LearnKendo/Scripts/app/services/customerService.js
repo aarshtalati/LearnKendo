@@ -3,17 +3,16 @@
 (function () {
     'use strict';
 
-    app.factory('customerService', ['$http', customerService]);
+    app.service('customerService', ['$http', customerService]);
 
     function customerService($http) {
-        var service = {
-            getAll: _getAll
-        };
-
-        return service;
-
-        var _getData = function () {
-
+        
+        this.getAll = function () {
+            var v = 'test';
+            return $http({
+                method: 'GET',
+                url: 'http://www.filltext.com/?rows=10&id={index}&name={firstName}'
+            });
         };
 
         //#region Internal Methods        

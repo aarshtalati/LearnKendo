@@ -3,35 +3,42 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h2>Index</h2>
-<script>
-    $(function () {
-        $('#datePicker').kendoDatePicker({
-            format: "M/d/yy",
-            min: new Date(1900, 0, 1, 0, 0, 0, 0),
-            max: new Date(2099, 11, 31, 0, 0, 0, 0)
-        });
-        kendo.init($("#container"));
-    });
-</script>
 
-<div data-ng-controller="home">
 
-    {{selectedDate | asDate | date:'shortDate'}}
+<div data-ng-controller="home" data-ng-init="activate()">
+
+    <div>Two way binding :</div>
+    <ul>
+
+        <li>
+            Selected Date >> <b>NgFilter:</b> {{ dateObject | asDate | date:'shortDate'}} | <b>Date-String:</b> {{ dateString }} | <b>DateObject:</b> {{ dateObject | date:"EEEE, MMMM d, yyyy" }}
+        </li>
+        <li>Person ID >> {{personId}}</li>
+    </ul>
 
     <div id="container">
-        <input id="datePicker"
-               data-role="datePicker"
-               data-ng-model="selectedDate" />
 
-        <input data-role="numerictextbox" />
+        <div>Date</div>
+        <input data-kendo-date-picker data-ng-model="dateString" data-k-ng-model="dateObject" />
+        <br /><br /><br />
 
-        <input id="nameAutoComplete1"
-               type="text"
-               data-role="autocomplete"
-               data-ng-model="personId"
-               data-ignore-case="true"
-               data-text-field="name"
-               data-source="{data: [{name: 'John Doe', value: '1'},{name: 'Jane Doe', value : '2'}]}" />
+        <div>Simple Numeric Spinner (0-10)</div>
+        <input data-kendo-numeric-text-box="" data-k-min="0" data-k-max="10" k-ng-model="personId" data-k-step="2" data-k-options="spinnerOptions" />
+        <br /><br /><br />
+
+        <div>Person </div>
+        @*<input kendo-auto-complete="" k-data-source="app.people" k-data-text-field="'text'" k-data-value-field="'value'" />*@
+        <input kendo-auto-complete="" data-ng-model="person" k-data-source="autoCompleteValues" k-data-text-field="'name'" k-data-value-field="'id'" />
+        ID : {{personId}} & Name : {{person}}
+
+        <br /><br /><br />
+        <div>Look up Table :</div>
+        <table border="1">
+            <tr data-ng-repeat="p in ppl">
+                <td>{{p.id}}</td>
+                <td>{{p.name}}</td>
+            </tr>
+        </table>
     </div>
 
 </div>
